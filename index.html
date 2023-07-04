@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Binary Translator</title>
   <link href="src/index.css" rel="stylesheet">
-  <link rel="icon" type="image/svg+xml" href="/public/vite.svg">
+  <link rel="icon" type="image/svg+xml" href="vite.svg">
 
   <!-- Add meta description -->
   <meta name="description" content="Binary Translator - Convert binary input to ASCII output">
@@ -23,19 +23,19 @@
   <meta name="twitter:image" content="https://binary-translator-zeta.vercel.app/image.jpg">
   <meta name="twitter:url" content="https://binary-translator-zeta.vercel.app/">
 </head>
-<body class="bg-gray-100">
+<body class="dark bg-gray-900 text-gray-100 overflow-hidden">
 <div class="container mx-auto px-4 py-8 max-w-md">
   <h1 class="text-4xl font-bold text-center text-teal-500 mb-8">Binary Translator</h1>
-  <div class="card bg-white p-4 border border-gray-300 rounded-lg shadow-md mb-8">
-    <label for="binaryInput" class="block text-gray-700 font-bold mb-2">Enter Binary input:</label>
-    <textarea class="p-4 border border-gray-300 rounded-lg resize-none w-full h-40 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring focus:ring-teal-400" id="binaryInput"></textarea>
+  <div class="bg-white dark:bg-gray-800 p-6 border border-gray-700 rounded-lg shadow-md mb-8">
+    <label for="binaryInput" class="block text-gray-800 dark:text-gray-100 font-bold mb-2">Enter Binary input:</label>
+    <textarea class="p-4 border border-gray-300 dark:border-gray-700 rounded-lg resize-none w-full h-40 text-gray-800 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring focus:ring-teal-400 bg-gray-200 dark:bg-gray-700" id="binaryInput"></textarea>
   </div>
   <div class="flex justify-center mb-8">
-    <button class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded transition-colors duration-300" id="translateButton">Translate</button>
+    <button class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-6 rounded-full transition-colors duration-300" id="translateButton">Translate</button>
   </div>
-  <div class="card bg-white p-4 border border-gray-300 rounded-lg shadow-md">
-    <label for="asciiOutput" class="block text-gray-700 font-bold mb-2">ASCII output:</label>
-    <textarea class="p-4 border border-gray-300 rounded-lg resize-none w-full h-40 text-gray-700 placeholder-gray-400 focus:outline-none focus:ring focus:ring-teal-400" id="asciiOutput" readonly></textarea>
+  <div class="bg-white dark:bg-gray-800 p-6 border border-gray-700 rounded-lg shadow-md">
+    <label for="asciiOutput" class="block text-gray-800 dark:text-gray-100 font-bold mb-2">ASCII output:</label>
+    <textarea class="p-4 border border-gray-300 dark:border-gray-700 rounded-lg resize-none w-full h-40 text-gray-800 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring focus:ring-teal-400 bg-gray-200 dark:bg-gray-700" id="asciiOutput" readonly></textarea>
   </div>
 </div>
 
